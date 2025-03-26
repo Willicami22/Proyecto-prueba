@@ -10,6 +10,7 @@ import java.util.List;
 @RequestMapping("/tasks")
 @CrossOrigin(origins = "*")
 public class TaskController {
+
     private final TaskRepository taskRepository;
 
     public TaskController(TaskRepository taskRepository) {
